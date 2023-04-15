@@ -15,7 +15,7 @@ namespace Illegalaria.Content.Items.Materials
 
 		public override void SetDefaults()
 		{
-        	int width = 28; int height = 42;
+        	int width = 42; int height = 42;
         	Item.Size = new Vector2(width, height);
 
         	Item.rare = ItemRarityID.Yellow;

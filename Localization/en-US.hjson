@@ -27,5 +27,13 @@ Mods: {
 				Tooltip: Used for crafting a Jungle Key
 			}
 		}
+
+		DropConditions: {
+			CorruptionKeyMold: Mods.Illegalaria.DropConditions.CorruptionKeyMold
+			CrimsonKeyMold: Mods.Illegalaria.DropConditions.CrimsonKeyMold
+			FrozenKeyMold: Mods.Illegalaria.DropConditions.FrozenKeyMold
+			HallowedKeyMold: Mods.Illegalaria.DropConditions.HallowedKeyMold
+			JungleKeyMold: Mods.Illegalaria.DropConditions.JungleKeyMold
+		}
 	}
 }
