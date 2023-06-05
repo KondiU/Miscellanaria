@@ -25,6 +25,11 @@ Mods: {
 				DisplayName: Jungle Key Mold
 				Tooltip: Used for crafting a Jungle Key
 			}
+
+			OrbOfLight: {
+				DisplayName: Orb Of Light
+				Tooltip: ""
+			}
 		}
 
 		DropConditions: {
@@ -34,6 +39,15 @@ Mods: {
 			HallowedKeyMold: Mods.Illegalaria.DropConditions.HallowedKeyMold
 			JungleKeyMold: Mods.Illegalaria.DropConditions.JungleKeyMold
 		}
+
+		Buffs: {
+			OrbOfLightBuff: {
+				DisplayName: Orb Of Light Buff
+				Description: Mods.Illegalaria.Buffs.OrbOfLightBuff.Description
+			}
+		}
+
+		Projectiles.OrbOfLightProjectile.DisplayName: Orb Of Light Projectile
 	}
 }
 
