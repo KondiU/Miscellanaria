@@ -1,4 +1,4 @@
-/FIXNĄĆ FIXNĄĆ FIXNĄĆ
+//FIXNĄĆ FIXNĄĆ FIXNĄĆ
 using Microsoft.Xna.Framework;
 using System;
 using Terraria;
@@ -9,7 +9,8 @@ namespace Illegalaria.Content.Projectiles.Friendly.Pets
 {
 	public class OrbOfLightProjectile : ModProjectile
 	{
-		private const int FadeInTicks = 30;
+		private const int DashCooldown = 1000; // How frequently this pet will dash at enemies.
+		private const float DashSpeed = 20f; // The speed with which this pet will dash at enemies.
 		private const int FullBrightTicks = 200;
 		private const int FadeOutTicks = 30;
 		private const float Range = 500f;
@@ -20,7 +21,6 @@ namespace Illegalaria.Content.Projectiles.Friendly.Pets
 		// The following 2 lines of code are ref properties (learn about them in google) to the Projectile.ai array entries, which will help us make our code way more readable.
 		// We're using the ai array because it's automatically synchronized by the base game in multiplayer, which saves us from writing a lot of boilerplate code.
 		// Note that the Projectile.ai array is only 3 entries big. If you need more than 3 synchronized variables - you'll have to use fields and sync them manually.
-		public ref float AIFadeProgress => ref Projectile.ai[0];
 		public ref float AIDashCharge => ref Projectile.ai[1];
 
 		public override void SetStaticDefaults() {
@@ -57,7 +57,6 @@ namespace Illegalaria.Content.Projectiles.Friendly.Pets
 			}
 
 			UpdateDash(player);
-			UpdateFading(player);
 			UpdateExtraMovement();
 
 			// Rotates the pet when it moves horizontally.
@@ -74,7 +73,7 @@ namespace Illegalaria.Content.Projectiles.Friendly.Pets
 
 			AIDashCharge++;
 
-			if (AIDashCharge <= DashCooldown || (int)AIFadeProgress % 100 != 0) {
+			if (AIDashCharge <= DashCooldown) {
 				return;
 			}
 
@@ -96,47 +95,6 @@ namespace Illegalaria.Content.Projectiles.Friendly.Pets
 				AIDashCharge = 0f; // Reset the charge.
 
 				break;
-			}
-		}
-
-		private void UpdateFading(Player player) {
-			//TODO: Comment and clean this up more.
-
-			var playerCenter = player.Center; // Cache the player's center vector to avoid recalculations.
-
-			AIFadeProgress++;
-
-			if (AIFadeProgress < FadeInTicks) {
-				Projectile.alpha = (int)(255 - 255 * AIFadeProgress / FadeInTicks);
-			}
-			else if (AIFadeProgress < FadeInTicks + FullBrightTicks) {
-				Projectile.alpha = 0;
-
-				if (Main.rand.NextBool(6)) {
-					var dust = Dust.NewDustDirect(Projectile.position, Projectile.width, Projectile.height, DustID.PinkFairy, 0f, 0f, 200, default, 0.8f);
-
-					dust.velocity *= 0.3f;
-				}
-			}
-			else if (AIFadeProgress < FadeInTicks + FullBrightTicks + FadeOutTicks) {
-				Projectile.alpha = (int)(255 * (AIFadeProgress - FadeInTicks - FullBrightTicks) / FadeOutTicks);
-			}
-			else {
-				Projectile.Center = playerCenter + Main.rand.NextVector2Circular(Range, Range);
-				AIFadeProgress = 0f;
-
-				Projectile.velocity = 2f * Vector2.Normalize(playerCenter - Projectile.Center);
-			}
-
-			if (Vector2.Distance(playerCenter, Projectile.Center) > RangeHypoteneus) {
-				Projectile.Center = playerCenter + Main.rand.NextVector2Circular(Range, Range);
-				AIFadeProgress = 0f;
-
-				Projectile.velocity += 2f * Vector2.Normalize(playerCenter - Projectile.Center);
-			}
-
-			if ((int)AIFadeProgress % 100 == 0) {
-				Projectile.velocity = Projectile.velocity.RotatedByRandom(MathHelper.ToRadians(90));
 			}
 		}
 

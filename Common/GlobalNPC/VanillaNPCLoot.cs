@@ -25,6 +25,11 @@ namespace Illegalaria.Common.GlobalNPCs
 			{
 				npcLoot.Add(ItemDropRule.Common(ItemID.SkeletonBow, 200));
 			}
+
+			if (npc.type == NPCID.CultistBoss && Main.expertMode)
+			{
+				npcLoot.Add(ItemDropRule.Common(ItemID.CultistBossBag, 1));
+			}
 		}
 	}
 }

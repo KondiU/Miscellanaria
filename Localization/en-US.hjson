@@ -30,6 +30,11 @@ Mods: {
 				DisplayName: Orb Of Light
 				Tooltip: ""
 			}
+
+			SolarCultistMask: {
+				DisplayName: Solar Cultist Mask
+				Tooltip: ""
+			}
 		}
 
 		DropConditions: {
