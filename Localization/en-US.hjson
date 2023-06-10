@@ -27,8 +27,8 @@ Mods: {
 			}
 
 			OrbOfLight: {
-				DisplayName: Orb Of Light
-				Tooltip: ""
+				DisplayName: Orb of Light
+				Tooltip: Creates a magical orb of light
 			}
 
 			SolarCultistMask: {
@@ -47,12 +47,12 @@ Mods: {
 
 		Buffs: {
 			OrbOfLightBuff: {
-				DisplayName: Orb Of Light Buff
-				Description: Mods.Illegalaria.Buffs.OrbOfLightBuff.Description
+				DisplayName: Orb of Light
+				Description: A magical orb that provides light
 			}
 		}
 
-		Projectiles.OrbOfLightProjectile.DisplayName: Orb Of Light Projectile
+		Projectiles.OrbOfLightProjectile.DisplayName: Orb of Light
 	}
 }
 
