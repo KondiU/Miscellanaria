@@ -3,8 +3,10 @@
 -Vortex tools
 -Skull bow
 -orb of light
+-goblin mask
 
 -solar cultist mask
+
 
 -lunar cultist boss bag (troche fixnąć trzeba)
 

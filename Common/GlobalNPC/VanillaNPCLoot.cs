@@ -3,6 +3,7 @@ using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Illegalaria.Content.Items.Materials;
+using Illegalaria.Content.Items.Vanity;
 using Illegalaria.Common.ItemDropRules.DropConditions;
 using System.Linq;
 
@@ -29,6 +30,11 @@ namespace Illegalaria.Common.GlobalNPCs
 			if (npc.type == NPCID.CultistBoss && Main.expertMode)
 			{
 				npcLoot.Add(ItemDropRule.Common(ItemID.CultistBossBag, 1));
+			}
+
+			if (npc.type == NPCID.DD2GoblinT1 || npc.type == NPCID.DD2GoblinT2 || npc.type == NPCID.DD2GoblinT3)
+			{
+				npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<EtherianGoblinMask>(), 200));
 			}
 		}
 	}

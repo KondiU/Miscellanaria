@@ -35,6 +35,16 @@ Mods: {
 				DisplayName: Solar Cultist Mask
 				Tooltip: ""
 			}
+
+			GoblinMask: {
+				Tooltip: ""
+				DisplayName: Goblin Mask
+			}
+
+			EtherianGoblinMask: {
+				DisplayName: Etherian Goblin Mask
+				Tooltip: ""
+			}
 		}
 
 		DropConditions: {
