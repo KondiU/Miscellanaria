@@ -36,6 +36,11 @@ namespace Illegalaria.Common.GlobalNPCs
 			{
 				npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<EtherianGoblinMask>(), 200));
 			}
+
+			if (npc.type == NPCID.DD2GoblinBomberT1 || npc.type == NPCID.DD2GoblinBomberT2 || npc.type == NPCID.DD2GoblinBomberT3)
+			{
+				npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<EtherianGoblinBomberCap>(), 200));
+			}
 		}
 	}
 }

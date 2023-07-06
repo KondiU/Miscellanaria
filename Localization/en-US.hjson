@@ -45,6 +45,11 @@ Mods: {
 				DisplayName: Etherian Goblin Mask
 				Tooltip: ""
 			}
+
+			EtherianGoblinBomberCap: {
+				Tooltip: ""
+				DisplayName: Etherian Goblin Bomber Cap
+			}
 		}
 
 		DropConditions: {
