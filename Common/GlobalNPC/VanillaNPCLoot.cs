@@ -2,14 +2,14 @@ using Terraria;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Illegalaria.Content.Items.Materials;
-using Illegalaria.Content.Items.Vanity;
-using Illegalaria.Common.ItemDropRules.DropConditions;
+using Miscellanaria.Content.Items.Materials;
+using Miscellanaria.Content.Items.Vanity;
+using Miscellanaria.Common.ItemDropRules.DropConditions;
 using System.Linq;
 
-namespace Illegalaria.Common.GlobalNPCs
+namespace Miscellanaria.Common.GlobalNPCs
 {
-	public class IllegalariaDrops : GlobalNPC
+	public class MiscellanariaDrops : GlobalNPC
 	{
 		public override void ModifyGlobalLoot(GlobalLoot globalLoot) 
 		{

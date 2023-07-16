@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
 
-namespace Illegalaria.Content.Items.Dyes
+namespace Miscellanaria.Content.Items.Dyes
 {
 	public class ColorOnlyDye : GlobalItem
 	{
@@ -18,7 +18,7 @@ namespace Illegalaria.Content.Items.Dyes
 			ItemID.Sets.Deprecated [3978] = false;
 		}
 
-//		public override string FunctionalTexture => "Illegalaria/Content/Items/Dyes/ColorOnlyDye";
+//		public override string FunctionalTexture => "Miscellanaria/Content/Items/Dyes/ColorOnlyDye";
 
 // how the fuck are you supposed to change vanilla item sprite bruh
 	}

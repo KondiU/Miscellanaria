@@ -1,5 +1,5 @@
 Mods: {
-	Illegalaria: {
+	Miscellanaria: {
 		Items: {
 			CorruptionKeyMold: {
 				DisplayName: Corruption Key Mold
@@ -53,11 +53,11 @@ Mods: {
 		}
 
 		DropConditions: {
-			CorruptionKeyMold: Mods.Illegalaria.DropConditions.CorruptionKeyMold
-			CrimsonKeyMold: Mods.Illegalaria.DropConditions.CrimsonKeyMold
-			FrozenKeyMold: Mods.Illegalaria.DropConditions.FrozenKeyMold
-			HallowedKeyMold: Mods.Illegalaria.DropConditions.HallowedKeyMold
-			JungleKeyMold: Mods.Illegalaria.DropConditions.JungleKeyMold
+			CorruptionKeyMold: Mods.Miscellanaria.DropConditions.CorruptionKeyMold
+			CrimsonKeyMold: Mods.Miscellanaria.DropConditions.CrimsonKeyMold
+			FrozenKeyMold: Mods.Miscellanaria.DropConditions.FrozenKeyMold
+			HallowedKeyMold: Mods.Miscellanaria.DropConditions.HallowedKeyMold
+			JungleKeyMold: Mods.Miscellanaria.DropConditions.JungleKeyMold
 		}
 
 		Buffs: {

@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.Localization;
 
-namespace Illegalaria.Common.ItemDropRules.DropConditions
+namespace Miscellanaria.Common.ItemDropRules.DropConditions
 {
 	public class CrimsonKeyMoldCondition : IItemDropRuleCondition
 	{
@@ -11,7 +11,7 @@ namespace Illegalaria.Common.ItemDropRules.DropConditions
 
 		public CrimsonKeyMoldCondition() 
 		{
-			Description ??= Language.GetOrRegister("Mods.Illegalaria.DropConditions.CrimsonKeyMold");
+			Description ??= Language.GetOrRegister("Mods.Miscellanaria.DropConditions.CrimsonKeyMold");
 		}
 
 		public bool CanDrop(DropAttemptInfo info) 

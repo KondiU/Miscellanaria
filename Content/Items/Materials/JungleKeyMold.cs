@@ -1,10 +1,10 @@
-using Illegalaria.Content.Items.Materials;
+using Miscellanaria.Content.Items.Materials;
 using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Illegalaria.Content.Items.Materials
+namespace Miscellanaria.Content.Items.Materials
 {
     public class JungleKeyMold : ModItem
     {

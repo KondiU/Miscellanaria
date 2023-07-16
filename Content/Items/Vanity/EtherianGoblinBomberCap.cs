@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Illegalaria.Content.Items.Vanity
+namespace Miscellanaria.Content.Items.Vanity
 {
 	[AutoloadEquip(EquipType.Head)]
 

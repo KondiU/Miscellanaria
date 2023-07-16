@@ -3,7 +3,7 @@ using Terraria.ID;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.Localization;
 
-namespace Illegalaria.Common.ItemDropRules.DropConditions
+namespace Miscellanaria.Common.ItemDropRules.DropConditions
 {
 	public class JungleKeyMoldCondition : IItemDropRuleCondition
 	{
@@ -11,7 +11,7 @@ namespace Illegalaria.Common.ItemDropRules.DropConditions
 
 		public JungleKeyMoldCondition() 
 		{
-			Description ??= Language.GetOrRegister("Mods.Illegalaria.DropConditions.JungleKeyMold");
+			Description ??= Language.GetOrRegister("Mods.Miscellanaria.DropConditions.JungleKeyMold");
 		}
 
 		public bool CanDrop(DropAttemptInfo info) 

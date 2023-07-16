@@ -1,7 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
 
-namespace Illegalaria.Content.Items.Pets {
+namespace Miscellanaria.Content.Items.Pets {
     public abstract class PetItem : ModItem {
         public override bool CanRightClick () => false;
 

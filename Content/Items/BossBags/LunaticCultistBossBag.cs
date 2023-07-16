@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
 
-namespace Illegalaria.Content.Items.BossBags
+namespace Miscellanaria.Content.Items.BossBags
 {
 	public class LunaticCultistBossBag : GlobalItem
 	{

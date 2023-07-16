@@ -2,7 +2,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace Illegalaria.Content.Buffs
+namespace Miscellanaria.Content.Buffs
 {
 	public class OrbOfLightBuff : ModBuff
 	{

@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Illegalaria.Content.Items.Pets {
+namespace Miscellanaria.Content.Items.Pets {
     public class OrbOfLight : PetItem {
 		public override void SetStaticDefaults () {
 			Item.ResearchUnlockCount = 1;

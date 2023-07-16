@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.GameContent.Creative;
 
-namespace Illegalaria.Content.Items.Weapons.Melee
+namespace Miscellanaria.Content.Items.Weapons.Melee
 {
 	public class FirstFractal : GlobalItem
 	{

@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Illegalaria.Content.Projectiles.Friendly.Pets 
+namespace Miscellanaria.Content.Projectiles.Friendly.Pets 
 {
     public class OrbOfLightProjectile : ModProjectile 
 	{

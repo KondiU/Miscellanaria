@@ -2,9 +2,9 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Illegalaria.Common.GlobalNPCs
+namespace Miscellanaria.Common.GlobalNPCs
 {
-	public class IllegalariaShops : GlobalNPC
+	public class MiscellanariaShops : GlobalNPC
 	{
 		public override void ModifyShop(NPCShop shop) 
 		{

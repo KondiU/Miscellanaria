@@ -1,8 +1,8 @@
 using Terraria.ModLoader;
 
-namespace Illegalaria
+namespace Miscellanaria
 {
-	public class Illegalaria : Mod
+	public class Miscellanaria : Mod
 	{
 	}
 }

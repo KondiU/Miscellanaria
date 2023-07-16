@@ -2,7 +2,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Illegalaria.Content.Items.Tools;
+namespace Miscellanaria.Content.Items.Tools;
 
 public class SolarFlareChainsaw : GlobalItem
 {
