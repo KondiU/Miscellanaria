@@ -50,6 +50,11 @@ Mods: {
 				Tooltip: ""
 				DisplayName: Etherian Goblin Bomber Cap
 			}
+
+			OktoberLocks: {
+				DisplayName: Oktober Locks
+				Tooltip: ""
+			}
 		}
 
 		DropConditions: {
