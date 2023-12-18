@@ -3,6 +3,7 @@ using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Miscellanaria.Content.Items.Materials;
+using Miscellanaria.Content.Items.Placeable;
 using Miscellanaria.Content.Items.Vanity;
 using Miscellanaria.Common.ItemDropRules.DropConditions;
 using System.Linq;
@@ -18,6 +19,7 @@ namespace Miscellanaria.Common.GlobalNPCs
 			globalLoot.Add(ItemDropRule.ByCondition(new FrozenKeyMoldCondition(), ModContent.ItemType<FrozenKeyMold>(), 2000));
 			globalLoot.Add(ItemDropRule.ByCondition(new HallowedKeyMoldCondition(), ModContent.ItemType<HallowedKeyMold>(), 2000));
 			globalLoot.Add(ItemDropRule.ByCondition(new JungleKeyMoldCondition(), ModContent.ItemType<JungleKeyMold>(), 2000));
+			globalLoot.Add(ItemDropRule.ByCondition(new DesertKeyMoldCondition(), ModContent.ItemType<DesertKeyMold>(), 2000));
 		}
 
 		public override void ModifyNPCLoot(NPC npc, NPCLoot npcLoot) 
@@ -30,6 +32,11 @@ namespace Miscellanaria.Common.GlobalNPCs
 			if (npc.type == NPCID.CultistBoss && Main.expertMode)
 			{
 				npcLoot.Add(ItemDropRule.Common(ItemID.CultistBossBag, 1));
+			}
+
+			if (npc.type == NPCID.BloodNautilus)
+			{
+				npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<DreadnautilusTrophy>(), 10, 1, 1));
 			}
 
 			if (npc.type == NPCID.DD2GoblinT1 || npc.type == NPCID.DD2GoblinT2 || npc.type == NPCID.DD2GoblinT3)

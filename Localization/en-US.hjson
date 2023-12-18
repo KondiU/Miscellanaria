@@ -55,6 +55,16 @@ Mods: {
 				DisplayName: Oktober Locks
 				Tooltip: ""
 			}
+
+			DreadnautilusTrophy: {
+				Tooltip: ""
+				DisplayName: Dreadnautilus Trophy
+			}
+
+			DesertKeyMold: {
+				Tooltip: Used for crafting a Desert Key
+				DisplayName: Desert Key Mold
+			}
 		}
 
 		DropConditions: {
@@ -63,6 +73,7 @@ Mods: {
 			FrozenKeyMold: Mods.Miscellanaria.DropConditions.FrozenKeyMold
 			HallowedKeyMold: Mods.Miscellanaria.DropConditions.HallowedKeyMold
 			JungleKeyMold: Mods.Miscellanaria.DropConditions.JungleKeyMold
+			DesertKeyMold: Mods.Miscellanaria.DropConditions.DesertKeyMold
 		}
 
 		Buffs: {

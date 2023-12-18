@@ -17,9 +17,5 @@ namespace Miscellanaria.Content.Items.Dyes
 		{
 			ItemID.Sets.Deprecated [3978] = false;
 		}
-
-//		public override string FunctionalTexture => "Miscellanaria/Content/Items/Dyes/ColorOnlyDye";
-
-// how the fuck are you supposed to change vanilla item sprite bruh
 	}
 }
