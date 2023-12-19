@@ -30,6 +30,11 @@ namespace Miscellanaria.Common.GlobalNPCs
 				npcLoot.Add(ItemDropRule.Common(ItemID.SkeletonBow, 200));
 			}
 
+			if (npc.type == NPCID.ArmoredViking || npc.type == NPCID.IceElemental || npc.type == NPCID.IceTortoise || npc.type == NPCID.IcyMerman)
+			{
+				npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<Icemourne>(), 100));
+			}
+
 			if (npc.type == NPCID.CultistBoss)
 			{
 				npcLoot.RemoveWhere(

@@ -75,6 +75,15 @@ Mods: {
 				DisplayName: Scythe
 				Tooltip: "'If you forget your fear you become reckless.'"
 			}
+
+			Icemourne: {
+				DisplayName: Icemourne
+				Tooltip:
+					'''
+					Shoots an icy bolt
+					'Just as the blade rends flesh, so must power scar the spirit.'
+					'''
+			}
 		}
 
 		DropConditions: {
