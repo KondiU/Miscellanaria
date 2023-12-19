@@ -65,6 +65,16 @@ Mods: {
 				Tooltip: Used for crafting a Desert Key
 				DisplayName: Desert Key Mold
 			}
+
+			MutatedOgreMask: {
+				Tooltip: ""
+				DisplayName: Mutated Ogre Mask
+			}
+
+			KoboldDynamiteBackpack: {
+				Tooltip: ""
+				DisplayName: Kobold Dynamite Backpack
+			}
 		}
 
 		DropConditions: {

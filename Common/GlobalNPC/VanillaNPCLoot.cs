@@ -29,9 +29,33 @@ namespace Miscellanaria.Common.GlobalNPCs
 				npcLoot.Add(ItemDropRule.Common(ItemID.SkeletonBow, 200));
 			}
 
-			if (npc.type == NPCID.CultistBoss && Main.expertMode)
+			if (npc.type == NPCID.CultistBoss)
 			{
-				npcLoot.Add(ItemDropRule.Common(ItemID.CultistBossBag, 1));
+				npcLoot.RemoveWhere(
+					rule => rule is CommonDrop commonDrop 
+						&& commonDrop.itemId == ItemID.LunarCraftingStation
+				);
+
+				npcLoot.RemoveWhere(
+					rule => rule is CommonDrop commonDrop 
+						&& commonDrop.itemId == 3372
+				);
+
+				npcLoot.RemoveWhere(
+					rule => rule is CommonDrop commonDrop
+						&& commonDrop.itemId == ItemID.GreaterHealingPotion
+				);
+
+				npcLoot.RemoveWhere(
+					rule => rule is CommonDrop commonDrop 
+						&& commonDrop.itemId == ItemID.SilverCoin
+				);
+
+				npcLoot.Add(ItemDropRule.BossBag(ItemID.CultistBossBag));
+				npcLoot.Add(ItemDropRule.ByCondition(new Conditions.NotExpert(), ItemID.LunarCraftingStation));
+				npcLoot.Add(ItemDropRule.ByCondition(new Conditions.NotExpert(), 3372 , chanceDenominator: 7, chanceNumerator: 1, minimumDropped: 1, maximumDropped: 1));
+				npcLoot.Add(ItemDropRule.ByCondition(new Conditions.NotExpert(), ItemID.GreaterHealingPotion, chanceDenominator: 1, chanceNumerator: 1, minimumDropped: 5, maximumDropped: 15));
+
 			}
 
 			if (npc.type == NPCID.BloodNautilus)
@@ -48,6 +72,12 @@ namespace Miscellanaria.Common.GlobalNPCs
 			{
 				npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<EtherianGoblinBomberCap>(), 200));
 			}
+
+			if (npc.type == NPCID.DD2KoboldWalkerT2 || npc.type == NPCID.DD2KoboldWalkerT3 || npc.type == NPCID.DD2KoboldFlyerT2 || npc.type == NPCID.DD2KoboldFlyerT3)
+			{
+				npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<KoboldDynamiteBackpack>(), 200));
+			}
+
 		}
 	}
 }

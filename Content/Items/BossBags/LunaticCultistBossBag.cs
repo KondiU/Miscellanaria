@@ -12,13 +12,11 @@ namespace Miscellanaria.Content.Items.BossBags
 		{
 			return entity.type == 3331;
 		}
-//Ancient Manipulator - dodać
-//silver coin - usunąć
 
 		public override void SetStaticDefaults()
 		{
-			ItemID.Sets.Deprecated [4722] = false;
-			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[4722] = 3;
+			ItemID.Sets.Deprecated [3331] = false;
+			CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[3331] = 3;
 		}
 	}
 }
