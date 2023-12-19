@@ -84,6 +84,11 @@ Mods: {
 					'Just as the blade rends flesh, so must power scar the spirit.'
 					'''
 			}
+
+			SoulScythe: {
+				DisplayName: Soul Scythe
+				Tooltip: "'MAKA CHOP!'"
+			}
 		}
 
 		DropConditions: {
