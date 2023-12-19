@@ -51,11 +51,6 @@ Mods: {
 				DisplayName: Etherian Goblin Bomber Cap
 			}
 
-			OktoberLocks: {
-				DisplayName: Oktober Locks
-				Tooltip: ""
-			}
-
 			DreadnautilusTrophy: {
 				Tooltip: ""
 				DisplayName: Dreadnautilus Trophy
@@ -67,13 +62,18 @@ Mods: {
 			}
 
 			MutatedOgreMask: {
-				Tooltip: ""
 				DisplayName: Mutated Ogre Mask
+				Tooltip: ""
 			}
 
 			KoboldDynamiteBackpack: {
-				Tooltip: ""
 				DisplayName: Kobold Dynamite Backpack
+				Tooltip: ""
+			}
+
+			Scythe: {
+				DisplayName: Scythe
+				Tooltip: "'If you forget your fear you become reckless.'"
 			}
 		}
 
