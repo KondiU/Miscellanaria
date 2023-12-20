@@ -69,6 +69,11 @@ namespace Miscellanaria.Common.GlobalNPCs
 				npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<DreadnautilusTrophy>(), 10));
 			}
 
+			if (npc.type == NPCID.WyvernHead)
+			{
+				npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<SoulScythe>(), 100));
+			}
+
 			if (npc.type == NPCID.SkeletronHead)
 			{
 				npcLoot.Add(ItemDropRule.ByCondition(new Conditions.NotExpert(), ModContent.ItemType<Scythe>(), 7));

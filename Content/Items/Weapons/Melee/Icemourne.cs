@@ -26,7 +26,7 @@ namespace Miscellanaria.Content.Items.Weapons.Melee
 			Item.value = Item.buyPrice(gold: 5);
 			Item.rare = ItemRarityID.Pink;
 			Item.UseSound = SoundID.Item1;
-			Item.autoReuse = true;
+			Item.autoReuse = false;
 		}
 	}
 }
