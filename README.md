@@ -114,6 +114,4 @@ Credits:
 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
-🖥 [Mod on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=2958674071)
-
 🧧 This project is fully maintained by a single person. If you really enjoy it & would want to support the future of it, [you can buy me a small coffee here. I would gladly appreciate it!](https://ko-fi.com/kondiu)
