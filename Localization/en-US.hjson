@@ -89,6 +89,11 @@ Mods: {
 				DisplayName: Soul Scythe
 				Tooltip: "'MAKA CHOP!'"
 			}
+
+			LesserRestorationPotion: {
+				Tooltip: Reduced potion cooldown
+				DisplayName: Lesser Restoration Potion
+			}
 		}
 
 		DropConditions: {

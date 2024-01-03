@@ -1,1 +1,29 @@
-Miscellanaria is a pretty cool mod, it does...this. Modify this file with a description of your mod.
+Miscellanaria is a mod that aims to bring old and unreleased Terraria items, mechanics and features back, reworked and rebalanced for modern Terraria.
+
+This includes:
+- First Fractal - an original endgame Terraria sword
+- Luminite Axes, Hammers and Chainsaws
+- Scythe, Soul Scythe and Icemourne
+- Skull Bow
+- Key Molds
+- Unimplemented boss bags
+- Color-Only Dye
+- Orb of Light pet
+- White Cultist banners
+- Dreadnautilus Trophy
+and more!
+
+This mod doesn't significantly affect the balance of vanilla game, so you can play it alongside other, larger content mods, such as Thorium or Calamity without any problems.
+▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+! THIS MOD IS IN BETA STAGE OF DEVELOPMENT. SOME FEATURES MAY BE INCOMPLETE OR CONTAIN BUGS. IF YOU ENCOUNTER ANY OF THEM, PLEASE REPORT THEM USING GITHUB ISSUES TAB
+▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+Credits:
+- HenryChe for bringing some awesome ideas
+- Reobtainable Mod for inspiring me to start this project
+▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+Mod source on GitHub: https://github.com/KondiU/Miscellanaria
+
+This project is fully maintained by a single person. If you really enjoy it and would want to support the future of it, you can buy me a small coffee here. I would gladly appreciate it!: https://ko-fi.com/kondiu
