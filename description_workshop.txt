@@ -16,102 +16,6 @@
 [/list]
 
 This mod doesn't significantly affect the balance of vanilla game, so you can play it alongside other, larger content mods, such as [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2909886416]Thorium[/url] or [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2824688072]Calamity[/url] without any problems.
-▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-
-[h1]First Fractal[/h1]
-[b]First Fractal[/b] is a unique melee weapon that was originally supposed to be the endgame sword for 1.4.0.1, but the concept was discarded during development of the update. It's place has been taken by Zenith. It can be obtained by throwing Zenith into Shimmer.
-
-[h1]Icemourne[/h1]
-[b]Icemourne[/b] is a originally unimplemented meleee weapon from version 1.2 of Terraria that references the Frostmourne from the Warcraft franchise. It has a 1/100 (1%) chance of dropping from Armored Vikings, Ice Elementals, Ice Tortoises and Icy Mermans.
-
-[h1]Scythe[/h1]
-[b]Scythe[/b] is a originally unimplemented meleee weapon from version 1.2 of Terraria that references the Evan's Scythe from the Soul Eater franchise. It has a 1/7 (14.29%) chance of dropping from Skeletron and it's Treasure Bag.
-
-[h1]Soul Scythe[/h1]
-[b]Soul Scythe[/b] is a originally unimplemented meleee weapon from version 1.2 of Terraria that references the Maka Albarn's Kishin Hunter from the Soul Eater franchise. It has a 1/100 (1%) chance of dropping from Wyverns.
-
-[h1]Skull Bow[/h1]
-[b]Skull Bow[/b] is a originally unobtainable early game weapon and a ranged class equivalent of Bone Sword. It has a 1/200 (0.5%) chance of dropping from Skeletons and Spore Skeletons.
-
-[h1]Luminite Axes, Hammers and Chainsaws[/h1]
-[b]Luminite Axes, Hammers and Chainsaws[/b] are four types of originally unobtainable endgame tools that can be crafted using Luminite and different Lunar Fragments. They can be crafted at a Ancient Manipulator using the following ingredients:
-[list]
-[*][b]Solar/Vortex/Nebula/Stardust Fragment[/b] (x14)
-[*][b]Luminite Bar[/b] (x12)
-[/list]
-
-[h1]Etherian Goblin Bomber Cap[/h1]
-[b]Etherian Goblin Bomber Cap[/b] is a vanity hat that was originally unimplemented to the game. It has a 1/200 (0.5%) chance of dropping from Etherian Goblin Bombers.
-
-[h1]Etherian Goblin Mask[/h1]
-[b]Etherian Goblin Mask[/b] is a vanity hat that was originally unimplemented to the game. It has a 1/200 (0.5%) chance of dropping from Etherian Goblins.
-
-[h1]Mutated Ogre Mask[/h1]
-[b]Mutated Ogre Mask[/b] is a vanity hat that was an early and unimplemented version of Ogre Mask. It can be obtained by throwing Ogre Mask into Shimmer.
-
-[h1]Solar Cultist Mask[/h1]
-[b]Solar Cultist Mask[/b] is a solar equivalent of regular Cultist Mask. It can be obtained by throwing Cultist Mask into Shimmer.
-
-[h1]Kobold Dynamite Backpack[/h1]
-[b]Kobold Dynamite Backpack[/b] is a vanity accessory that was originally unimplemented to the game. It has a 1/200 (0.5%) chance of dropping from Kobolds and Kobold Gliders.
-
-[h1]Lesser Restoration Potion[/h1]
-[b]Lesser Restoration Potion[/b] is a recovery potion that combines the effects of the Lesser Healing Potion and Restoration potion that was removed in version 1.4.0.1 of Terraria. It can be crafted at a placed bottle or Alchemy Table using the following ingredients:
-[list]
-[*][b]Mushroom[/b]
-[*][b]Pink Gel[/b]
-[*][b]Bottle[/b]
-[/list]
-
-[h1]Orb of Light[/h1]
-[b]Orb of Light[/b] is a pre-1.2 Light Pet that was originally replaced by Shadow Orb. It can be obtained by throwing Shadow Orb into Shimmer.
-
-[h1]Blue Cultist Fighter Banner[/h1]
-[b]Blue Cultist Fighter Banner[/b] is a originally unobtainable banner of an unimplemented Blue Cultist Fighter enemy. It can be crafted at Loom placed in Ecto Mist using the following ingredients:
-[list]
-[*][b]Blue Cultist Archer Banner[/b]
-[*][b]Lunatic Devotee Banner[/b]
-or by throwing White Cultist Fighter Banner into Shimmer.
-[/list]
-
-[h1]White Cultist Archer Banner[/h1]
-[b]White Cultist Archer Banner[/b] is a originally unobtainable banner of an unimplemented White Cultist Archer enemy. It can be obtained by throwing Blue Cultist Archer Banner into Shimmer.
-
-[h1]White Cultist Caster Banner[/h1]
-[b]White Cultist Caster Banner[/b] is a originally unobtainable banner of an unimplemented White Cultist Caster enemy. It can be obtained by throwing Lunatic Devotee Banner into Shimmer.
-
-[h1]White Cultist Fighter Banner[/h1]
-[b]White Cultist Fighter Banner[/b] is a originally unobtainable banner of an unimplemented White Cultist Fighter enemy. It can be crafted at Loom placed in Ecto Mist using the following ingredients:
-[list]
-[*][b]White Cultist Archer Banner[/b]
-[*][b]White Cultist Caster Banner[/b]
-or by throwing Blue Cultist Fighter Banner into Shimmer.
-[/list]
-
-[h1]Dreadnautilus Trophy[/h1]
-[b]Dreadnautilus Trophy[/b] is a placeable item that was originally scraped during the development of Dreadnautilus, as Terraria developers didn't know if he should count as an actuall boss or miniboss. It has a 1/10 (10%) chance of dropping from Dreadnautilus.
-
-[h1]Biome Key Molds[/h1]
-[b]Biome Key Molds[/b] are extremely rare Hardmode crafting materials that are used to craft Biome Keys, which open Biome Chests once Plantera is defeated. They were originally removed in 1.3.0.1 update of Terraria. After the Wall of Flesh is defeated, every enemy killed within an eligible biome has a 1/2000 (0.05%) chance of dropping a Biome Key Mold, with the exception of Meteor Heads and statue-spawned enemies.
-[list]
-[*][b]Jungle Key Mold[/b], dropped by enemies in Jungle biome
-[*][b]Corruption Key Mold[/b], dropped by enemies in Corruption biome
-[*][b]Crimson Key Mold[/b], dropped by enemies in Crimson biome
-[*][b]Hallow Key Mold[/b], dropped by enemies in Hallow biome
-[*][b]Desert Key Mold[/b], dropped by enemies in Desert biome
-[*][b]Snow Key Mold[/b], dropped by enemies in Snow biome
-[/list]
-
-[h1]Lunatic Cultist Bag[/h1]
-[b]Lunatic Cultist Bag[/b] is originally an unobtainable Treasure Bag for Lunatic Cultist. It works like any other vanilla boss bag. It drops from Lunatic Cultist in Expert and Master mode and can contain the following items:
-[list]
-[*][b]Ancient Manipulator[/b] (100%)
-[*][b]Lunatic Cultist Mask[/b] (14.29%)
-[*][b]Greater Healing Potion (x5–15)[/b] (100%)
-[/list]
-
-[h1]Color Only Dye[/h1]
-[b]Color Only Dye[/b] is an originally unimplemented dye that makes the player and the items it is applied on completely white. It can be bought from Dye Trader after defeating the Martian Madness event.
 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
@@ -123,6 +27,6 @@ Credits:
 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
-🖥 [url=https://github.com/KondiU/Miscellanaria]Mod source on GitHub[/url]
+🖥 [url=https://github.com/KondiU/Miscellanaria]Mod guide and source on GitHub[/url]
 
 🧧 This project is fully maintained by a single person. If you really enjoy it & would want to support the future of it, [url=https://ko-fi.com/kondiu]you can buy me a small coffee here. I would gladly appreciate it![/url]

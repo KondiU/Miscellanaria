@@ -21,6 +21,6 @@ Credits:
 - Reobtainable Mod for inspiring me to start this project
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
-Mod source on GitHub: https://github.com/KondiU/Miscellanaria
+Mod guide and source on GitHub: https://github.com/KondiU/Miscellanaria
 
 This project is fully maintained by a single person. If you really enjoy it and would want to support the future of it, you can buy me a small coffee here. I would gladly appreciate it!: https://ko-fi.com/kondiu
