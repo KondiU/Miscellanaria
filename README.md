@@ -105,13 +105,12 @@ or by throwing Blue Cultist Fighter Banner into Shimmer.
 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
-❗ THIS MOD IS IN BETA STAGE OF DEVELOPMENT. SOME FEATURES MAY BE INCOMPLETE OR CONTAIN BUGS. IF YOU ENCOUNTER ANY OF THEM, PLEASE REPORT THEM USING [GITHUB ISSUES TAB](https://github.com/KondiU/Miscellanaria/issues)
-▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-
 Credits:
 - [HenryChe](https://steamcommunity.com/profiles/76561199058845384) for bringing some awesome ideas
 - [Reobtainable Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2557985156) for inspiring me to start this project
 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+
+🖥 [Mod on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3131402417)
 
 🧧 This project is fully maintained by a single person. If you really enjoy it & would want to support the future of it, [you can buy me a small coffee here. I would gladly appreciate it!](https://ko-fi.com/kondiu)

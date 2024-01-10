@@ -16,9 +16,6 @@ and more!
 This mod doesn't significantly affect the balance of vanilla game, so you can play it alongside other, larger content mods, such as Thorium or Calamity without any problems.
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
-! THIS MOD IS IN BETA STAGE OF DEVELOPMENT. SOME FEATURES MAY BE INCOMPLETE OR CONTAIN BUGS. IF YOU ENCOUNTER ANY OF THEM, PLEASE REPORT THEM USING GITHUB ISSUES TAB
-▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-
 Credits:
 - HenryChe for bringing some awesome ideas
 - Reobtainable Mod for inspiring me to start this project
