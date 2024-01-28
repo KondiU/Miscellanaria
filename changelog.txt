@@ -1,1 +1,2 @@
-- Updated Desert Key Mold sprite
+- Fixed the issue with Greater Healing Potions being able to drop from every openable bag
+- Updated descriptions

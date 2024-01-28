@@ -17,6 +17,8 @@ namespace Miscellanaria.Common.GlobalItems
         {
             if(item.type == 3331) 
                 itemLoot.Add(ItemDropRule.Common(3549, 1));
+				
+			if(item.type == 3331) 
 				itemLoot.Add(ItemDropRule.Common(ItemID.GreaterHealingPotion, 1, 5, 15));
 
 			if(item.type == 3323) 
