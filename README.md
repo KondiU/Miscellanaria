@@ -108,6 +108,7 @@ or by throwing Blue Cultist Fighter Banner into Shimmer.
 Credits:
 - [Sparcdoctor](https://steamcommunity.com/id/Sparcdoctor) for bringing some awesome ideas
 - [HenryChe](https://steamcommunity.com/profiles/76561199058845384) for bringing some awesome ideas
+- [kazmakazii](https://steamcommunity.com/id/kazmakazii/) for providing many different sprites
 - [Reobtainable Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2557985156) for inspiring me to start this project
 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁

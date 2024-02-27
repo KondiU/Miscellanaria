@@ -1,2 +1,3 @@
-- Fixed the issue with Greater Healing Potions being able to drop from every openable bag
-- Updated descriptions
+- Added Baby Zombie pet
+
+Special thanks to kazmakazii for providing the sprites for Baby Zombie pet!

@@ -94,6 +94,11 @@ Mods: {
 				Tooltip: Reduced potion cooldown
 				DisplayName: Lesser Restoration Potion
 			}
+
+			BrainCandy: {
+				Tooltip: Summons a pet baby zombie
+				DisplayName: Brain Candy
+			}
 		}
 
 		DropConditions: {
@@ -110,9 +115,17 @@ Mods: {
 				DisplayName: Orb of Light
 				Description: A magical orb that provides light
 			}
+
+			BabyZombieBuff: {
+				Description: Eats (tiny) brains
+				DisplayName: Baby Zombie
+			}
 		}
 
-		Projectiles.OrbOfLightProjectile.DisplayName: Orb of Light
+		Projectiles: {
+			OrbOfLightProjectile.DisplayName: Orb of Light
+			BabyZombieProjectile.DisplayName: Baby Zombie
+		}
 	}
 }
 
