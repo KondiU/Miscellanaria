@@ -19,8 +19,8 @@ namespace Miscellanaria.Content.Items.Pets
 			int width = 26; int height = 26;
 			Item.Size = new Vector2(width, height);
 
-			Item.rare = ItemRarityID.Pink;
-			Item.value = Item.buyPrice(gold: 25);
+			Item.rare = ItemRarityID.Orange;
+			Item.value = Item.sellPrice(gold: 3);
 		}
 	}
 }

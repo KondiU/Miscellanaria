@@ -103,6 +103,9 @@ or by throwing Blue Cultist Fighter Banner into Shimmer.
 ## Color Only Dye
 **Color Only Dye** is an originally unimplemented dye that makes the player and the items it is applied on completely white. It can be bought from Dye Trader after defeating the Martian Madness event.
 
+## Baby Zombie
+**Baby Zombie** is a new pet that was originally teased by Leinfors on Official Terraria Discord. It can be summoned using Brain Candy, which has a 1/15 chance of dropping from Maggot Zombie. 
+
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 
 Credits:

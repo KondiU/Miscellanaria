@@ -3,9 +3,10 @@ using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Miscellanaria.Content.Items.Materials;
+using Miscellanaria.Content.Items.Pets;
 using Miscellanaria.Content.Items.Placeable;
-using Miscellanaria.Content.Items.Weapons.Melee;
 using Miscellanaria.Content.Items.Vanity;
+using Miscellanaria.Content.Items.Weapons.Melee;
 using Miscellanaria.Common.ItemDropRules.DropConditions;
 using System.Linq;
 
@@ -94,6 +95,10 @@ namespace Miscellanaria.Common.GlobalNPCs
 				npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<KoboldDynamiteBackpack>(), 200));
 			}
 
+			if (npc.type == NPCID.MaggotZombie)
+			{
+				npcLoot.Add(ItemDropRule.Common(ModContent.ItemType<BrainCandy>(), 15));
+			}
 		}
 	}
 }
