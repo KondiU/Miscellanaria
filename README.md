@@ -51,6 +51,11 @@ This mod doesn't significantly affect the balance of vanilla game, so you can pl
 ## Solar Cultist Mask
 **Solar Cultist Mask** is a solar equivalent of regular Cultist Mask. It can be obtained by throwing Cultist Mask into Shimmer.
 
+## Mannequin Vanity Set
+[**Mannequin Vanity Set** is a vanity set that was once teased by Yorai Omer on Twitter.](https://twitter.com/Yoraiz0r/status/860219004442562561) It can be crafted at a Loom using the following ingredients:
+- **Silk** (x20)
+- **Any wood** (x5)
+
 ## Kobold Dynamite Backpack
 **Kobold Dynamite Backpack** is a vanity accessory that was originally unimplemented to the game. It has a 1/200 (0.5%) chance of dropping from Kobolds and Kobold Gliders.
 
@@ -62,6 +67,9 @@ This mod doesn't significantly affect the balance of vanilla game, so you can pl
 
 ## Orb of Light
 **Orb of Light** is a pre-1.2 Light Pet that was originally replaced by Shadow Orb. It can be obtained by throwing Shadow Orb into Shimmer.
+
+## Baby Zombie
+**Baby Zombie** is a new pet that was originally teased by Leinfors on Official Terraria Discord. It can be summoned using Brain Candy, which has a 1/15 chance of dropping from Maggot Zombie. 
 
 ## Blue Cultist Fighter Banner
 **Blue Cultist Fighter Banner** is a originally unobtainable banner of an unimplemented Blue Cultist Fighter enemy. It can be crafted at Loom placed in Ecto Mist using the following ingredients:
@@ -102,9 +110,6 @@ or by throwing Blue Cultist Fighter Banner into Shimmer.
 
 ## Color Only Dye
 **Color Only Dye** is an originally unimplemented dye that makes the player and the items it is applied on completely white. It can be bought from Dye Trader after defeating the Martian Madness event.
-
-## Baby Zombie
-**Baby Zombie** is a new pet that was originally teased by Leinfors on Official Terraria Discord. It can be summoned using Brain Candy, which has a 1/15 chance of dropping from Maggot Zombie. 
 
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 

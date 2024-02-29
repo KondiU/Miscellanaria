@@ -1,3 +1,4 @@
 - Added Baby Zombie pet
+- Added Mannequin Vanity Set
 
 Special thanks to kazmakazii for providing the sprites for Baby Zombie pet!

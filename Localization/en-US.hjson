@@ -99,6 +99,21 @@ Mods: {
 				Tooltip: Summons a Baby Zombie
 				DisplayName: Brain Candy
 			}
+
+			MannequinShirt: {
+				Tooltip: ""
+				DisplayName: Mannequin Shirt
+			}
+
+			MannequinPants: {
+				Tooltip: ""
+				DisplayName: Mannequin Pants
+			}
+
+			MannequinMask: {
+				Tooltip: ""
+				DisplayName: Mannequin Mask
+			}
 		}
 
 		DropConditions: {
