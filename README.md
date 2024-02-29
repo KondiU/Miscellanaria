@@ -63,7 +63,10 @@ This mod doesn't significantly affect the balance of vanilla game, so you can pl
 **Lesser Restoration Potion** is a recovery potion that combines the effects of the Lesser Healing Potion and Restoration potion that was removed in version 1.4.0.1 of Terraria. It can be crafted at a placed bottle or Alchemy Table using the following ingredients:
 - **Mushroom**
 - **Pink Gel**
-- **Bottle** 
+- **Bottle**
+
+## Apple Pie Slice
+**Apple Pie Slice** is an unimplemented food item that grants the player a "Well Fed" buff for 8 minutes. It can be crafted by hand using the Apple Pie.
 
 ## Orb of Light
 **Orb of Light** is a pre-1.2 Light Pet that was originally replaced by Shadow Orb. It can be obtained by throwing Shadow Orb into Shimmer.

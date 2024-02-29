@@ -1,3 +1,4 @@
+- Added Apple Pie Slice
 - Added Baby Zombie pet
 - Added Mannequin Vanity Set
 
