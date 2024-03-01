@@ -114,6 +114,11 @@ Mods: {
 				Tooltip: ""
 				DisplayName: Mannequin Mask
 			}
+
+			PhasicWarpEjector: {
+				DisplayName: Phasic Warp Ejector
+				Tooltip: ""
+			}
 		}
 
 		DropConditions: {
