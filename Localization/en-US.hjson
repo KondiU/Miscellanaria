@@ -146,6 +146,9 @@ Mods: {
 			OrbOfLightProjectile.DisplayName: Orb of Light
 			BabyZombieProjectile.DisplayName: Baby Zombie
 		}
+
+		Emotes.ScragglerEmote.Command: scraggleremote
+		NPCs.ScragglerNPC.DisplayName: Scraggler N P C
 	}
 }
 

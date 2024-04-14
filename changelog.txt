@@ -1,5 +1,8 @@
 - Added Apple Pie Slice
 - Added Baby Zombie pet
 - Added Mannequin Vanity Set
+- Added Scraggler NPC
 
-Special thanks to kazmakazii for providing the sprites for Baby Zombie pet!
+Special thanks to: 
+-kazmakazii - for providing the sprites for Baby Zombie pet
+-Cold Nutso - for letting me use his Toa Lewa sprites for Scraggler NPC
