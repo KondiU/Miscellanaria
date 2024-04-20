@@ -147,8 +147,8 @@ Mods: {
 			BabyZombieProjectile.DisplayName: Baby Zombie
 		}
 
-		Emotes.ScragglerEmote.Command: scraggleremote
-		NPCs.ScragglerNPC.DisplayName: Scraggler N P C
+		Emotes.ScragglerEmote.Command: scraggler
+		NPCs.ScragglerNPC.DisplayName: Scraggler
 	}
 }
 
