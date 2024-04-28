@@ -35,7 +35,7 @@ namespace Miscellanaria.Content.NPCs
 
 			NPCID.Sets.ActsLikeTownNPC[Type] = true;
 			NPCID.Sets.NoTownNPCHappiness[Type] = true;
-			NPCID.Sets.SpawnsWithCustomName[Type] = true;
+			NPCID.Sets.SpawnsWithCustomName[Type] = false;
 			NPCID.Sets.FaceEmote[Type] = ModContent.EmoteBubbleType<ScragglerEmote>();
 			NPCID.Sets.AllowDoorInteraction[Type] = true;
 
@@ -63,6 +63,7 @@ namespace Miscellanaria.Content.NPCs
 			NPC.HitSound = SoundID.NPCHit1;
 			NPC.DeathSound = SoundID.NPCDeath1;
 			NPC.knockBackResist = 0.5f;
+			NPC.rarity = 1;
 
 			AnimationType = NPCID.Dryad;
 		}
@@ -107,7 +108,7 @@ namespace Miscellanaria.Content.NPCs
 			return NPCProfile;
 		}
 
-		public override List<string> SetNPCNameList() {
+/*		public override List<string> SetNPCNameList() {
 			return new List<string> {
 				"Benjamin",
 				"Someone's Ribcage",
@@ -115,6 +116,7 @@ namespace Miscellanaria.Content.NPCs
 				"Darkness"
 			};
 		}
+*/
 
 		public override float SpawnChance(NPCSpawnInfo spawnInfo) {
 			if (spawnInfo.Player.ZoneJungle) {
@@ -126,9 +128,9 @@ namespace Miscellanaria.Content.NPCs
 		public override string GetChat() {
 			WeightedRandom<string> chat = new WeightedRandom<string>();
 
-			chat.Add(Language.GetTextValue("Mods.Miscellanaria.Dialogue.ExampleBoneMerchant.StandardDialogue1"));
-			chat.Add(Language.GetTextValue("Mods.Miscellanaria.Dialogue.ExampleBoneMerchant.StandardDialogue2"));
-			chat.Add(Language.GetTextValue("Mods.Miscellanaria.Dialogue.ExampleBoneMerchant.StandardDialogue3"));
+			chat.Add(Language.GetTextValue("Mods.Miscellanaria.Dialogue.Scraggler.StandardDialogue1"));
+			chat.Add(Language.GetTextValue("Mods.Miscellanaria.Dialogue.Scraggler.StandardDialogue2"));
+			chat.Add(Language.GetTextValue("Mods.Miscellanaria.Dialogue.Scraggler.StandardDialogue3"));
 			return chat;
 		}
 
@@ -137,29 +139,42 @@ namespace Miscellanaria.Content.NPCs
 			button = Language.GetTextValue("LegacyInterface.28");
 		}
 
-		public override void OnChatButtonClicked(bool firstButton, ref string shop) 
+		public override void OnChatButtonClicked(bool firstButton, ref string shopName)
 		{
-			if (firstButton) {
-				shop = "Shop";
-			}
+			if (firstButton)
+				shopName = "Shop";
 		}
 
-/*		public override void AddShops() 
+		public override void AddShops()
 		{
-			Shop = new ScragglerShop(NPC.type);
-				Shop.Add(ItemID.AngelStatue);
-				Shop.Add(ItemID.FartinaJar);
-				Shop.Add(ItemID.StinkPotion);
-				Shop.Add(ItemID.Coal);
-				Shop.Add(ItemID.RedPotion);
-				Shop.Add(ItemID.GoldenShower);
-				Shop.Add(ItemID.MasterBait);
-				Shop.Add(ItemID.WaterGun);
-				Shop.Add(ItemID.PoopBlock);
-				Shop.Add(ItemID.GelBalloon);
-			Shop.Register();
+			NPCShop shop = new NPCShop(Type);
+				shop.Add(ItemID.FroggleBunwich);
+//				shop.Add(ItemID.Rope);
+				shop.Add(ItemID.MudBlock);
+				shop.Add(ItemID.GillsPotion);
+
+
+				shop.Add(ItemID.RedPotion);
+				shop.Add(ItemID.MechdusaSummon, Condition.DownedMechBossAll);
+
+				shop.Add(ItemID.WaffleIron, Condition.DownedMechBossAll);
+				shop.Add(ItemID.MoonLordLegs, Condition.DownedMoonLord);
+				
+
+	/*			shop.Add(ItemID.AngelStatue);
+				shop.Add(ItemID.FartinaJar);
+				shop.Add(ItemID.StinkPotion);
+				shop.Add(ItemID.Coal);
+				
+				shop.Add(ItemID.GoldenShower);
+				shop.Add(ItemID.MasterBait);
+				shop.Add(ItemID.WaterGun);
+				shop.Add(ItemID.PoopBlock);
+				shop.Add(ItemID.GelBalloon);
+	*/
+				shop.Register();
 		}
-*/
+
 		public override void TownNPCAttackStrength(ref int damage, ref float knockback) 
 		{
 			damage = 20;
@@ -172,7 +187,7 @@ namespace Miscellanaria.Content.NPCs
 			randExtraCooldown = 1;
 		}
 
-		public override void TownNPCAttackProj(ref int projType, ref int attackDelay) {
+/*		public override void TownNPCAttackProj(ref int projType, ref int attackDelay) {
 			projType = ProjectileID.NanoBullet;
 			attackDelay = 1;
 
@@ -195,6 +210,7 @@ namespace Miscellanaria.Content.NPCs
 				inBetweenShots = true;
 			}
 		}
+*/
 
 //		public override void DrawTownAttackGun(ref Texture2D item, ref Rectangle itemFrame, ref float scale, ref int horizontalHoldoutOffset) {
 //			if (!NPC.IsShimmerVariant) {

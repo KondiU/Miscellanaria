@@ -119,6 +119,11 @@ Mods: {
 				DisplayName: Phasic Warp Ejector
 				Tooltip: ""
 			}
+
+			AncientRestorationPotion: {
+				DisplayName: Ancient Restoration Potion
+				Tooltip: ""
+			}
 		}
 
 		DropConditions: {
@@ -145,6 +150,14 @@ Mods: {
 		Projectiles: {
 			OrbOfLightProjectile.DisplayName: Orb of Light
 			BabyZombieProjectile.DisplayName: Baby Zombie
+		}
+
+		Dialogue: {
+			Scraggler: {
+				StandardDialogue1: It's Scragglin' Time!
+				StandardDialogue2: It's scraggling time!
+				StandardDialogue3: It's scraggling time!
+			}
 		}
 
 		Emotes.ScragglerEmote.Command: scraggler

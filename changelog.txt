@@ -1,7 +1,9 @@
-- Added Apple Pie Slice
+- Added Scraggler NPC
 - Added Baby Zombie pet
 - Added Mannequin Vanity Set
-- Added Scraggler NPC
+- Added Apple Pie Slice
+- Added Lesser Restoration Potion
+- Added Ancient Restoration Potion
 
 Special thanks to: 
 -kazmakazii - for providing the sprites for Baby Zombie pet
