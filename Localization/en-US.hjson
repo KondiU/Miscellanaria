@@ -124,6 +124,21 @@ Mods: {
 				DisplayName: Ancient Restoration Potion
 				Tooltip: ""
 			}
+
+			DecorativeAncientRestorationPotion: {
+				DisplayName: Decorative Ancient Restoration Potion
+				Tooltip: ""
+			}
+
+			DecorativeLesserRestorationPotion: {
+				Tooltip: ""
+				DisplayName: Decorative Lesser Restoration Potion
+			}
+
+			PhasicWarpDisc: {
+				DisplayName: Phasic Warp Disc
+				Tooltip: ""
+			}
 		}
 
 		DropConditions: {
@@ -150,6 +165,7 @@ Mods: {
 		Projectiles: {
 			OrbOfLightProjectile.DisplayName: Orb of Light
 			BabyZombieProjectile.DisplayName: Baby Zombie
+			PhasicWarpDiscProjectile.DisplayName: Phasic Warp Disc
 		}
 
 		Dialogue: {

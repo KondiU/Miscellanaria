@@ -1,9 +1,14 @@
+- Added cross-mod support with Decorative Potions Mod
 - Added Scraggler NPC
+- Added Scraggler Emote
 - Added Baby Zombie pet
 - Added Mannequin Vanity Set
 - Added Apple Pie Slice
 - Added Lesser Restoration Potion
 - Added Ancient Restoration Potion
+
+- Added Phasic Warp Ejector
+- Added Phasic Warp Disc
 
 Special thanks to: 
 -kazmakazii - for providing the sprites for Baby Zombie pet

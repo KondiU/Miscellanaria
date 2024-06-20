@@ -35,7 +35,7 @@ namespace Miscellanaria.Content.Items.Consumables
 			Item.UseSound = SoundID.Item3;
 			Item.consumable = true;
 			Item.rare = ItemRarityID.Blue;
-			Item.value = Item.sellPrice(silver: 8);
+			Item.value = Item.sellPrice(silver: 2);
 		}
 		public override void AddRecipes() 
 		{
