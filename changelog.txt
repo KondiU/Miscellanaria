@@ -6,6 +6,7 @@
 - Added Apple Pie Slice
 - Added Lesser Restoration Potion
 - Added Ancient Restoration Potion
+- Added unused Terraria Logos to the main menu
 
 - Added Phasic Warp Ejector
 - Added Phasic Warp Disc

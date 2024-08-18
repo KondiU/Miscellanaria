@@ -139,6 +139,11 @@ Mods: {
 				DisplayName: Phasic Warp Disc
 				Tooltip: ""
 			}
+
+			DragonsVisage: {
+				Tooltip: ""
+				DisplayName: Dragon's Visage
+			}
 		}
 
 		DropConditions: {
